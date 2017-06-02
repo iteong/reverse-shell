@@ -18,8 +18,8 @@ def create_socket():
 # binds socket to port and wait for connection from client/target
 def socket_bind():
 	try:
-		global host # client ip address to connect to
-		global port # client ip address's port
+		global host
+		global port
 		global s
 		print("Binding socket to port: " + str(port))
 		s.bind((host, port)) # host: usually an IP address, but since we listening to our own machine, it is blank
