@@ -15,7 +15,7 @@ Connect to someone's computer from anywhere in the world and control it remotely
 - set up a server (server.py) that 'listens' for incoming client connections and have the target computer (client.py) connect to us.
 - client's operating system thinks that since the client initiated the connection to the server, it should be a safe connection. 
 
-![Connection](reverse2.png)
+![Connection](reverse2.gif)
 
 <b>Uses:</b>
 - helping a friend with computer problems by reverse shell into his computer remotely on your computer.
