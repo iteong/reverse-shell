@@ -4,11 +4,11 @@ import sys
 # socket to allow 2 computers to connect
 def create_socket():
 	try:
-                global host # client ip address to connect to
-                global port # client ip address's port
+                global host
+                global port
                 global s
-                host = '' # server ip address
-                port = 9999 # server port (identify what kind of data coming in)
+                host = ''
+                port = 9999
                 # don't use common ports like 80, 3389
 
                 s = socket.socket() # actual conversation between server and client
