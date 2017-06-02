@@ -1,6 +1,8 @@
 # reverse-shell
 <h1>Reverse Shell with Python 3</h1>
 
+![Normal vs Reverse](reverse1.png)
+
 <b>Purpose of Reverse Shell:</b>
 Connect to someone's computer from anywhere in the world and control it remotely.
 
@@ -12,6 +14,8 @@ Connect to someone's computer from anywhere in the world and control it remotely
 <b>Solution:</b>
 - set up a server (server.py) that 'listens' for incoming client connections and have the target computer (client.py) connect to us.
 - client's operating system thinks that since the client initiated the connection to the server, it should be a safe connection. 
+
+![Connection](reverse2.png)
 
 <b>Uses:</b>
 - helping a friend with computer problems by reverse shell into his computer remotely on your computer.
